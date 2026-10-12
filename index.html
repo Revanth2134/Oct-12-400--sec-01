@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DOM Manipulation Demo</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>DOM Manipulation Demo</h1>
+  <p>Visitor Count: <span id="visitorCount">1000+</span></p>
+</header>
+
+<section>
+  <h2>Dynamic Content Display</h2>
+  <button class="action-button" onclick="displayType('Text')">Show Text</button>
+  <button class="action-button" onclick="displayType('Image')">Show Image</button>
+  <button class="action-button" onclick="displayType('Animation')">Show Animation</button>
+  <div id="displayArea" class="display-area"></div>
+</section>
+
+<section>
+  <h2>Faculty Information</h2>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+      <tr>
+        <th>Photo</th>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Designation</th>
+        <th>Department</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="https://www.kluniversity.in/fphotos/actual/7633.jpg" alt="Faculty 1" width="100"></td>
+        <td>Mr. DINESHNATH</td>
+        <td>7633</td>
+        <td>Professor</td>
+        <td>Computer Science</td>
+      </tr>
+      <tr>
+        <td><img src="https://www.kluniversity.in/fphotos/actual/3973.jpg" alt="Faculty 2" width="100"></td>
+        <td>Dr. PATHURI SIVA KUMAR </td>
+        <td>3973</td>
+        <td>Professor</td>
+        <td>Computer Science</td>
+      </tr>
+      <tr>
+        <td><img src=https://www.kluniversity.in/fphotos/actual/7727.jpg alt="Faculty 3" width="100"></td>
+        <td>Ms. ALAPATI SMITHA KRANTHI</td>
+        <td>7727</td>
+        <td>  Professor</td>
+        <td>Computer Science</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button class="action-button" id="toggleImageButton">Toggle Image</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
